@@ -31,7 +31,7 @@ class OmniSharpFormat(sublime_plugin.TextCommand):
     def _formatlikeresharper(self, edit):
         if self.data != None:
             #order it by highest endline number otherwise could mess up line numbers by values with NewText : '\n    '
-            self.data["Changes"].sort(key= lambda x: x["EndLine"], reverse=True) 
+            # self.data["Changes"].sort(key= lambda x: x["EndLine"], reverse=True) 
             for i in self.data["Changes"]:
                 if i['NewText']:
                     #replace text

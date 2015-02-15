@@ -37,6 +37,11 @@
             Returns the kind (i.e Method, Property, Field)
             </summary>
         </member>
+        <member name="P:OmniSharp.Models.FindUsagesRequest.OnlyThisFile">
+            <summary>
+            Only search for references in the current file
+            </summary>
+        </member>
         <member name="T:Microsoft.CodeAnalysis.MSBuild.SectionBlock">
             <summary>
             Represents a SectionBlock in a .sln file. Section blocks are of the form:
